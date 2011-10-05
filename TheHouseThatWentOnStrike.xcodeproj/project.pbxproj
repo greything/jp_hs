@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		190DFAEF143CC31100012AB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190DFAEE143CC31100012AB5 /* UIKit.framework */; };
+		190DFAF1143CC31100012AB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190DFAF0143CC31100012AB5 /* Foundation.framework */; };
+		190DFAF3143CC31100012AB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190DFAF2143CC31100012AB5 /* CoreGraphics.framework */; };
+		190DFAF9143CC31100012AB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 190DFAF7143CC31100012AB5 /* InfoPlist.strings */; };
+		190DFAFC143CC31100012AB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 190DFAFB143CC31100012AB5 /* main.m */; };
+		190DFAFF143CC31100012AB5 /* TheHouseThatWentOnStrikeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 190DFAFE143CC31100012AB5 /* TheHouseThatWentOnStrikeAppDelegate.m */; };
+		190DFB02143CC31100012AB5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 190DFB00143CC31100012AB5 /* MainWindow.xib */; };
+		190DFB05143CC31100012AB5 /* TheHouseThatWentOnStrikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 190DFB04143CC31100012AB5 /* TheHouseThatWentOnStrikeViewController.m */; };
+		190DFB08143CC31100012AB5 /* TheHouseThatWentOnStrikeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 190DFB06143CC31100012AB5 /* TheHouseThatWentOnStrikeViewController.xib */; };
+		190DFB0F143CC31100012AB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190DFAEE143CC31100012AB5 /* UIKit.framework */; };
+		190DFB10143CC31100012AB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190DFAF0143CC31100012AB5 /* Foundation.framework */; };
+		190DFB11143CC31100012AB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190DFAF2143CC31100012AB5 /* CoreGraphics.framework */; };
+		190DFB19143CC31100012AB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 190DFB17143CC31100012AB5 /* InfoPlist.strings */; };
+		190DFB1C143CC31100012AB5 /* TheHouseThatWentOnStrikeTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 190DFB1B143CC31100012AB5 /* TheHouseThatWentOnStrikeTests.h */; };
+		190DFB1E143CC31100012AB5 /* TheHouseThatWentOnStrikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 190DFB1D143CC31100012AB5 /* TheHouseThatWentOnStrikeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		190DFB12143CC31100012AB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 190DFAE1143CC31000012AB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 190DFAE9143CC31100012AB5;
+			remoteInfo = TheHouseThatWentOnStrike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		190DFAEA143CC31100012AB5 /* TheHouseThatWentOnStrike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheHouseThatWentOnStrike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		190DFAEE143CC31100012AB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		190DFAF0143CC31100012AB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		190DFAF2143CC31100012AB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		190DFAF6143CC31100012AB5 /* TheHouseThatWentOnStrike-Info.plist */ = {isa = PBXFileReference; path = "TheHouseThatWentOnStrike-Info.plist"; sourceTree = "<group>"; };
+		190DFAF8143CC31100012AB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		190DFAFA143CC31100012AB5 /* TheHouseThatWentOnStrike-Prefix.pch */ = {isa = PBXFileReference; path = "TheHouseThatWentOnStrike-Prefix.pch"; sourceTree = "<group>"; };
+		190DFAFB143CC31100012AB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		190DFAFD143CC31100012AB5 /* TheHouseThatWentOnStrikeAppDelegate.h */ = {isa = PBXFileReference; path = TheHouseThatWentOnStrikeAppDelegate.h; sourceTree = "<group>"; };
+		190DFAFE143CC31100012AB5 /* TheHouseThatWentOnStrikeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheHouseThatWentOnStrikeAppDelegate.m; sourceTree = "<group>"; };
+		190DFB01143CC31100012AB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		190DFB03143CC31100012AB5 /* TheHouseThatWentOnStrikeViewController.h */ = {isa = PBXFileReference; path = TheHouseThatWentOnStrikeViewController.h; sourceTree = "<group>"; };
+		190DFB04143CC31100012AB5 /* TheHouseThatWentOnStrikeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheHouseThatWentOnStrikeViewController.m; sourceTree = "<group>"; };
+		190DFB07143CC31100012AB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TheHouseThatWentOnStrikeViewController.xib; sourceTree = "<group>"; };
+		190DFB0E143CC31100012AB5 /* TheHouseThatWentOnStrikeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheHouseThatWentOnStrikeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		190DFB16143CC31100012AB5 /* TheHouseThatWentOnStrikeTests-Info.plist */ = {isa = PBXFileReference; path = "TheHouseThatWentOnStrikeTests-Info.plist"; sourceTree = "<group>"; };
+		190DFB18143CC31100012AB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		190DFB1A143CC31100012AB5 /* TheHouseThatWentOnStrikeTests-Prefix.pch */ = {isa = PBXFileReference; path = "TheHouseThatWentOnStrikeTests-Prefix.pch"; sourceTree = "<group>"; };
+		190DFB1B143CC31100012AB5 /* TheHouseThatWentOnStrikeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheHouseThatWentOnStrikeTests.h; sourceTree = "<group>"; };
+		190DFB1D143CC31100012AB5 /* TheHouseThatWentOnStrikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheHouseThatWentOnStrikeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		190DFAE7143CC31100012AB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190DFAEF143CC31100012AB5 /* UIKit.framework in Frameworks */,
+				190DFAF1143CC31100012AB5 /* Foundation.framework in Frameworks */,
+				190DFAF3143CC31100012AB5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190DFB0A143CC31100012AB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190DFB0F143CC31100012AB5 /* UIKit.framework in Frameworks */,
+				190DFB10143CC31100012AB5 /* Foundation.framework in Frameworks */,
+				190DFB11143CC31100012AB5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		190DFADF143CC31000012AB5 = {
+			isa = PBXGroup;
+			children = (
+				190DFAF4143CC31100012AB5 /* TheHouseThatWentOnStrike */,
+				190DFB14143CC31100012AB5 /* TheHouseThatWentOnStrikeTests */,
+				190DFAED143CC31100012AB5 /* Frameworks */,
+				190DFAEB143CC31100012AB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		190DFAEB143CC31100012AB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				190DFAEA143CC31100012AB5 /* TheHouseThatWentOnStrike.app */,
+				190DFB0E143CC31100012AB5 /* TheHouseThatWentOnStrikeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		190DFAED143CC31100012AB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				190DFAEE143CC31100012AB5 /* UIKit.framework */,
+				190DFAF0143CC31100012AB5 /* Foundation.framework */,
+				190DFAF2143CC31100012AB5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		190DFAF4143CC31100012AB5 /* TheHouseThatWentOnStrike */ = {
+			isa = PBXGroup;
+			children = (
+				190DFAFD143CC31100012AB5 /* TheHouseThatWentOnStrikeAppDelegate.h */,
+				190DFAFE143CC31100012AB5 /* TheHouseThatWentOnStrikeAppDelegate.m */,
+				190DFB00143CC31100012AB5 /* MainWindow.xib */,
+				190DFB03143CC31100012AB5 /* TheHouseThatWentOnStrikeViewController.h */,
+				190DFB04143CC31100012AB5 /* TheHouseThatWentOnStrikeViewController.m */,
+				190DFB06143CC31100012AB5 /* TheHouseThatWentOnStrikeViewController.xib */,
+				190DFAF5143CC31100012AB5 /* Supporting Files */,
+			);
+			path = TheHouseThatWentOnStrike;
+			sourceTree = "<group>";
+		};
+		190DFAF5143CC31100012AB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				190DFAF6143CC31100012AB5 /* TheHouseThatWentOnStrike-Info.plist */,
+				190DFAF7143CC31100012AB5 /* InfoPlist.strings */,
+				190DFAFA143CC31100012AB5 /* TheHouseThatWentOnStrike-Prefix.pch */,
+				190DFAFB143CC31100012AB5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		190DFB14143CC31100012AB5 /* TheHouseThatWentOnStrikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				190DFB1B143CC31100012AB5 /* TheHouseThatWentOnStrikeTests.h */,
+				190DFB1D143CC31100012AB5 /* TheHouseThatWentOnStrikeTests.m */,
+				190DFB15143CC31100012AB5 /* Supporting Files */,
+			);
+			path = TheHouseThatWentOnStrikeTests;
+			sourceTree = "<group>";
+		};
+		190DFB15143CC31100012AB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				190DFB16143CC31100012AB5 /* TheHouseThatWentOnStrikeTests-Info.plist */,
+				190DFB17143CC31100012AB5 /* InfoPlist.strings */,
+				190DFB1A143CC31100012AB5 /* TheHouseThatWentOnStrikeTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		190DFAE9143CC31100012AB5 /* TheHouseThatWentOnStrike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 190DFB21143CC31100012AB5 /* Build configuration list for PBXNativeTarget "TheHouseThatWentOnStrike" */;
+			buildPhases = (
+				190DFAE6143CC31100012AB5 /* Sources */,
+				190DFAE7143CC31100012AB5 /* Frameworks */,
+				190DFAE8143CC31100012AB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheHouseThatWentOnStrike;
+			productName = TheHouseThatWentOnStrike;
+			productReference = 190DFAEA143CC31100012AB5 /* TheHouseThatWentOnStrike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		190DFB0D143CC31100012AB5 /* TheHouseThatWentOnStrikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 190DFB24143CC31100012AB5 /* Build configuration list for PBXNativeTarget "TheHouseThatWentOnStrikeTests" */;
+			buildPhases = (
+				190DFB09143CC31100012AB5 /* Sources */,
+				190DFB0A143CC31100012AB5 /* Frameworks */,
+				190DFB0B143CC31100012AB5 /* Resources */,
+				190DFB0C143CC31100012AB5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				190DFB13143CC31100012AB5 /* PBXTargetDependency */,
+			);
+			name = TheHouseThatWentOnStrikeTests;
+			productName = TheHouseThatWentOnStrikeTests;
+			productReference = 190DFB0E143CC31100012AB5 /* TheHouseThatWentOnStrikeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		190DFAE1143CC31000012AB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "MI Artbox, Incorporated";
+			};
+			buildConfigurationList = 190DFAE4143CC31000012AB5 /* Build configuration list for PBXProject "TheHouseThatWentOnStrike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 190DFADF143CC31000012AB5;
+			productRefGroup = 190DFAEB143CC31100012AB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				190DFAE9143CC31100012AB5 /* TheHouseThatWentOnStrike */,
+				190DFB0D143CC31100012AB5 /* TheHouseThatWentOnStrikeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		190DFAE8143CC31100012AB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190DFAF9143CC31100012AB5 /* InfoPlist.strings in Resources */,
+				190DFB02143CC31100012AB5 /* MainWindow.xib in Resources */,
+				190DFB08143CC31100012AB5 /* TheHouseThatWentOnStrikeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190DFB0B143CC31100012AB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190DFB19143CC31100012AB5 /* InfoPlist.strings in Resources */,
+				190DFB1C143CC31100012AB5 /* TheHouseThatWentOnStrikeTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		190DFB0C143CC31100012AB5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		190DFAE6143CC31100012AB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190DFAFC143CC31100012AB5 /* main.m in Sources */,
+				190DFAFF143CC31100012AB5 /* TheHouseThatWentOnStrikeAppDelegate.m in Sources */,
+				190DFB05143CC31100012AB5 /* TheHouseThatWentOnStrikeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190DFB09143CC31100012AB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190DFB1E143CC31100012AB5 /* TheHouseThatWentOnStrikeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		190DFB13143CC31100012AB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 190DFAE9143CC31100012AB5 /* TheHouseThatWentOnStrike */;
+			targetProxy = 190DFB12143CC31100012AB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		190DFAF7143CC31100012AB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				190DFAF8143CC31100012AB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		190DFB00143CC31100012AB5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				190DFB01143CC31100012AB5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		190DFB06143CC31100012AB5 /* TheHouseThatWentOnStrikeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				190DFB07143CC31100012AB5 /* en */,
+			);
+			name = TheHouseThatWentOnStrikeViewController.xib;
+			sourceTree = "<group>";
+		};
+		190DFB17143CC31100012AB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				190DFB18143CC31100012AB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		190DFB1F143CC31100012AB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		190DFB20143CC31100012AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		190DFB22143CC31100012AB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheHouseThatWentOnStrike/TheHouseThatWentOnStrike-Prefix.pch";
+				INFOPLIST_FILE = "TheHouseThatWentOnStrike/TheHouseThatWentOnStrike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		190DFB23143CC31100012AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheHouseThatWentOnStrike/TheHouseThatWentOnStrike-Prefix.pch";
+				INFOPLIST_FILE = "TheHouseThatWentOnStrike/TheHouseThatWentOnStrike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		190DFB25143CC31100012AB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TheHouseThatWentOnStrike.app/TheHouseThatWentOnStrike";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheHouseThatWentOnStrikeTests/TheHouseThatWentOnStrikeTests-Prefix.pch";
+				INFOPLIST_FILE = "TheHouseThatWentOnStrikeTests/TheHouseThatWentOnStrikeTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		190DFB26143CC31100012AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TheHouseThatWentOnStrike.app/TheHouseThatWentOnStrike";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheHouseThatWentOnStrikeTests/TheHouseThatWentOnStrikeTests-Prefix.pch";
+				INFOPLIST_FILE = "TheHouseThatWentOnStrikeTests/TheHouseThatWentOnStrikeTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		190DFAE4143CC31000012AB5 /* Build configuration list for PBXProject "TheHouseThatWentOnStrike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190DFB1F143CC31100012AB5 /* Debug */,
+				190DFB20143CC31100012AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		190DFB21143CC31100012AB5 /* Build configuration list for PBXNativeTarget "TheHouseThatWentOnStrike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190DFB22143CC31100012AB5 /* Debug */,
+				190DFB23143CC31100012AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		190DFB24143CC31100012AB5 /* Build configuration list for PBXNativeTarget "TheHouseThatWentOnStrikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190DFB25143CC31100012AB5 /* Debug */,
+				190DFB26143CC31100012AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 190DFAE1143CC31000012AB5 /* Project object */;
+}
