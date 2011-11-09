@@ -90,14 +90,22 @@
     //from before:
     
 	CGImageRef maskRef = maskImage.CGImage;
-	CGImageRef mask = CGImageMaskCreate(CGImageGetWidth(maskRef),
+	CGImageRef masker = CGImageMaskCreate(CGImageGetWidth(maskRef),
 										CGImageGetHeight(maskRef),
 										CGImageGetBitsPerComponent(maskRef),
 										CGImageGetBitsPerPixel(maskRef),
 										CGImageGetBytesPerRow(maskRef),
 										CGImageGetDataProvider(maskRef), NULL, false);
-	CGImageRef masked = CGImageCreateWithMask(imageWithAlpha, mask);
-	CGImageRelease(mask);
+	CGImageRef masked = CGImageCreateWithMask(imageWithAlpha, masker);
+	CGImageRelease(masker);
+    
+    //Testing image releasing
+    CGImageRelease(imageNoAlpha);
+    CGImageRelease(imageWithAlpha);
+    
+    CGContextRelease(ctxWithAlpha);
+    //CGImageRelease(maskRef);
+
 	UIImage* retImage= [UIImage imageWithCGImage:masked];
 	CGImageRelease(masked);
 	return retImage;
